@@ -1,0 +1,25 @@
+# Git
+.git
+.gitignore
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Astro internal state
+.astro/
+
+# Airflow runtime (NO necesarios en la imagen)
+logs/
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+
+# OS / editor
+.DS_Store
+.vscode/
