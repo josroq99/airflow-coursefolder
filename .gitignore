@@ -1,11 +1,26 @@
-.git
+# Secrets
 .env
+
+# OS
 .DS_Store
-airflow_settings.yaml
+
+# Python
 __pycache__/
-astro
-.venv
+*.pyc
+.venv/
+venv/
+
+# Astro / Airflow local state
+.astro/
+logs/
+plugins/
 airflow-webserver.pid
-webserver_config.py
 airflow.cfg
 airflow.db
+
+# Editor
+.vscode/
+
+# MinIO runtime data
+include/data/minio/
+
